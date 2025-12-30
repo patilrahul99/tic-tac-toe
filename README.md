@@ -4,7 +4,7 @@ A simple Spring Boot–based Tic Tac Toe web application demonstrating backend d
 
 ## Tech Stack
 
-- Java 17
+- Java 25
 
 - Spring Boot
 
@@ -13,21 +13,6 @@ A simple Spring Boot–based Tic Tac Toe web application demonstrating backend d
 - HTML, CSS, JavaScript
 
 - Embedded Tomcat Server
-
-## Project Structure
-tic-tac-toe
-├── .mvn/                  # Maven wrapper files
-├── src/                   # Application source code
-│   ├── main
-│   │   ├── java            # Java backend code
-│   │   └── resources       # HTML, CSS, JS files
-├── .gitignore
-├── .gitattributes
-├── mvnw                   # Maven wrapper (Linux/Mac)
-├── mvnw.cmd               # Maven wrapper (Windows)
-├── pom.xml                # Maven configuration
-├── README.md
-└── LICENSE
 
 ## Prerequisites
 
