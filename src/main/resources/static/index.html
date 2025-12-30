@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <title>Tic Tac Toe</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+
+    <div class="page">
+
+        <!-- GAME TITLE -->
+        <h1 class="title">❌TIC TAC TOE⭕</h1>
+
+        <!-- BOARD AREA -->
+        <div class="board-wrapper">
+            <div class="board" id="board"></div>
+            <div id="win-line"></div>
+        </div>
+
+        <!-- RESULT TEXT -->
+        <div id="result" class="result"></div>
+
+        <!-- CONTROLS -->
+        <div class="controls">
+            <span class="label">Difficulty:</span>
+            <select id="difficulty">
+                <option value="easy">Easy</option>
+                <option value="medium" selected>Medium</option>
+                <option value="hard">Hard</option>
+            </select>
+
+            <button onclick="resetGame()">Restart</button>
+        </div>
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
